@@ -13,13 +13,13 @@
 	</parent>
 
 	<groupId>bio.coil</groupId>
-	<artifactId>Thom_Titans</artifactId>
+	<artifactId>George_Biotin_Intensities</artifactId>
 	<version>1.0.1</version>
 
-	<name>Thom Titans</name>
-	<description>A project to find and measure the area and axes lengths of yeast? cells</description>
+	<name>George Biotin Intensities</name>
+	<description>Finds the intensity of each channel within the centromeres</description>
 	<url>https://www.ed.ac.uk/biology/wcb/centre-optical-instrumentation-laboratory-coil</url>
-	<inceptionYear>2023</inceptionYear>
+	<inceptionYear>2024</inceptionYear>
 	<organization>
 		<name>University of Edinburgh</name>
 		<url>https://ed.ac.uk</url>
@@ -63,22 +63,22 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:https://github.com/CoilEdinburgh/Thom_Titans</connection>
-		<developerConnection>scm:git:git@github.com:CoilEdinburgh/Thom_Titans</developerConnection>
+		<connection>scm:git:https://github.com/CoilEdinburgh/George_Biotin_Intensities</connection>
+		<developerConnection>scm:git:git@github.com:CoilEdinburgh/George_Biotin_Intensities</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/CoilEdinburgh/Thom_Titans</url>
+		<url>https://github.com/CoilEdinburgh/George_Biotin_Intensities</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/CoilEdinburgh/Thom_Titans/issues</url>
+		<url>https://github.com/CoilEdinburgh/George_Biotin_Intensities/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
 	</ciManagement>
 
 	<properties>
-		<package-name>bio.coil.CoilEdinburgh.Thom_Titans</package-name>
-		<main-class>Thom_Titans</main-class>
+		<package-name>bio.coil.CoilEdinburgh.George_Biotin_Intensities</package-name>
+		<main-class>George_Biotin_Intensities</main-class>
 		<license.licenseName>cc0</license.licenseName>
 		<license.copyrightOwners>University of Edinburgh</license.copyrightOwners>
 	</properties>
