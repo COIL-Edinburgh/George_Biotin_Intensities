@@ -87,7 +87,12 @@ public class George_Biotin_Intensities<T extends RealType<T>> implements Command
         for (File file : files) {
             if (file.toString().contains(".dv") && !file.toString().contains(".nd2 ")) {
                 //open file
-                ImagePlus imp = IJ.openImage(file.getPath());
+                IJ.run("Bio-Formats Importer", "open=[" + file.getAbsolutePath() + "] autoscale color_mode=Default view=Hyperstack stack_order=XYCZT");
+                ImagePlus imp = WindowManager.getCurrentImage();
+
+                //Zproject!
+
+
                 filename = imp.getShortTitle();
                 //segment ch1
                 Roi[] centromeres = segment(imp);
